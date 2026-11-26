@@ -71,3 +71,34 @@ Designed for **\$0 out-of-pocket cost** on free tiers:
 - **Assembly**: Local CPU via FFmpeg (free, deterministic)
 
 See [`COSTS.md`](COSTS.md) for measured stage timings and commercial list-price equivalents.
+
+---
+
+## Project Implementation & Engineering Contributions
+
+Detailed documentation of all system modules, architectural decisions, and technical contributions is available in [**`CONTRIBUTIONS.md`**](CONTRIBUTIONS.md).
+
+### Core Engineering Highlights:
+- **Contract-Driven Pipeline**: Driven by a single validated source of truth ([`storyboard.json`](storyboard.json)) governed by [`schema/storyboard.schema.json`](schema/storyboard.schema.json) with strict validation.
+- **Ethical Consent Enforcement**: Automated consent gate in [`pipeline/schema_validator.py`](pipeline/schema_validator.py) refusing execution if real-person or cloned-voice claims are unverified.
+- **Multi-Model Orchestration**: Synchronous integration of Gemini 3.8 Flash TTS, Cloudflare Workers AI FLUX, Wan 2.2 TI2V-5B, and ACE-Step 1.5.
+- **Hardware-Resilient Fallback Design**: Remote GPU workers for heavy inference combined with deterministic 24fps FFmpeg Ken Burns motion graphics and acoustic score synthesizers.
+- **Broadcast-Grade Audio & Video**: Dual-aspect video (`9:16` and `16:9`), sidechain compression ducking, two-pass EBU R128 loudness normalization (`-14 LUFS`), aspect-aware safe margin subtitles, and an AI disclosure end card.
+- **Zero-Waste Asset Caching**: SHA-256 deterministic input-hash caching ([`pipeline/cache.py`](pipeline/cache.py)) that invalidates only changed shots.
+- **Comprehensive Verification**: 9/9 automated unit & integration tests (`pytest`), structured audit logging with credential redaction ([`runs.jsonl`](runs.jsonl)), and automated code walkthrough generation.
+
+---
+
+## Documentation Index
+
+| Document | Purpose |
+|---|---|
+| [**`CONTRIBUTIONS.md`**](CONTRIBUTIONS.md) | Comprehensive engineering contributions, module architecture, and author attribution |
+| [**`FINAL_REPORT.md`**](FINAL_REPORT.md) | Executive summary, deliverable verification, and observed live performance metrics |
+| [**`ARCHITECTURE.md`**](ARCHITECTURE.md) | Complete system architecture, data flow diagrams, caching, and retry policies |
+| [**`COSTS.md`**](COSTS.md) | Exact measured timings, API token/image usage, and commercial cost comparisons |
+| [**`ETHICS.md`**](ETHICS.md) | Cultural authenticity guidelines, consent gate specifications, and AI disclosure |
+| [**`DESIGN.md`**](DESIGN.md) | Audience analysis, viewing contexts, and shot-by-shot artistic justifications |
+| [**`EXPERIMENTS.md`**](EXPERIMENTS.md) | Systematic prompt engineering, parameter tuning, and caching experiment logs |
+| [**`FAILURES.md`**](FAILURES.md) | Engineering failure post-mortems, hardware workarounds, and resolutions |
+

@@ -16,6 +16,7 @@ The end-to-end AI video generation pipeline has been implemented, validated, tes
 | **9:16 Final Film** | `outputs/final/film_9x16.mp4` | `1080×1920`, H.264 + AAC 48 kHz, `78.5s`, `19.24 MB` |
 | **Phase 1 Radio Cut** | `outputs/radio_cut/radio_cut_16x9.mp4` | `1280×720`, H.264 + AAC 48 kHz, `68.0s`, `1.88 MB` |
 | **Python Walkthrough Video** | `outputs/walkthrough/python_walkthrough_16x9.mp4` | `1920×1080`, H.264 + AAC 48 kHz, narrated code walkthrough |
+| **Engineering Contributions** | `CONTRIBUTIONS.md` | Full module implementation details & author attribution |
 | **Final Report** | `FINAL_REPORT.md` | This document |
 
 ---
