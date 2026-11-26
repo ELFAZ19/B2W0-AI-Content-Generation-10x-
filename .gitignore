@@ -1,0 +1,29 @@
+# Secrets & environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+kaggle.json
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+dist/
+build/
+
+# Temporary assembly artifacts (keep final/stage outputs inspectable)
+outputs/_tmp/
+outputs/.cache_manifest.tmp.json
+outputs/**/_work/
+outputs/**/work/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,82 @@
+{
+  "title": "The Brass Dial of Dessie",
+  "language": "Amharic",
+  "shot_count": 9,
+  "total_duration_sec": 76.0,
+  "total_narration_words": 84,
+  "warnings": [],
+  "shots": [
+    {
+      "id": "shot_01",
+      "duration_sec": 8.5,
+      "shot_size": "extreme_wide",
+      "camera_movement": "pan_right",
+      "word_count": 11,
+      "reason": "Establishes the geographic setting of Dessie at dawn before entering the workshop."
+    },
+    {
+      "id": "shot_02",
+      "duration_sec": 9.0,
+      "shot_size": "wide",
+      "camera_movement": "slow_push_in",
+      "word_count": 10,
+      "reason": "Introduces the main character Ato Tesfaye and the scale of his wooden workshop."
+    },
+    {
+      "id": "shot_03",
+      "duration_sec": 8.5,
+      "shot_size": "insert",
+      "camera_movement": "static",
+      "word_count": 11,
+      "reason": "Focuses the audience's eye on the broken brass-dial radio, the central story motif."
+    },
+    {
+      "id": "shot_04",
+      "duration_sec": 8.0,
+      "shot_size": "medium",
+      "camera_movement": "dolly_in",
+      "word_count": 8,
+      "reason": "Shows Ato Tesfaye's careful posture and brings the viewer closer into his craft."
+    },
+    {
+      "id": "shot_05",
+      "duration_sec": 10.0,
+      "shot_size": "close_up",
+      "camera_movement": "static",
+      "word_count": 10,
+      "reason": "Intimate detail of steady weathered hands repairing a delicate copper coil."
+    },
+    {
+      "id": "shot_06",
+      "duration_sec": 8.0,
+      "shot_size": "medium_close_up",
+      "camera_movement": "pan_left",
+      "word_count": 10,
+      "reason": "Connects the physical repair to the emotional theme of family across distance."
+    },
+    {
+      "id": "shot_07",
+      "duration_sec": 8.5,
+      "shot_size": "extreme_close_up",
+      "camera_movement": "slow_push_in",
+      "word_count": 9,
+      "reason": "Builds climax tension right before the radio comes back to life."
+    },
+    {
+      "id": "shot_08",
+      "duration_sec": 7.5,
+      "shot_size": "close_up",
+      "camera_movement": "static",
+      "word_count": 7,
+      "reason": "Delivers the emotional payoff on Ato Tesfaye's face when the broadcast returns."
+    },
+    {
+      "id": "shot_09",
+      "duration_sec": 8.0,
+      "shot_size": "wide",
+      "camera_movement": "slow_pull_out",
+      "word_count": 8,
+      "reason": "Bookends the opening wide shot, leaving the workshop glowing like a lantern."
+    }
+  ]
+}

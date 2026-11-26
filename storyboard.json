@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0.0",
+  "project": {
+    "title": "The Brass Dial of Dessie",
+    "logline": "In the misty highlands of Dessie, an elderly craftsman repairs an heirloom shortwave radio that keeps a family connected across continents.",
+    "treatment": "Morning mist rises over Dessie's hillsides as Ato Tesfaye opens the wooden shutters of his tiny repair shop. Surrounded by copper coils, vacuum tubes, and a brass-dialed shortwave radio, he patiently solders a broken wire while remembering the evening broadcasts his children grew up listening to. When the dial finally glows amber and music crackles through the speaker, the small room feels connected to the entire diaspora.",
+    "language": "Amharic",
+    "subtitle_language": "English",
+    "target_duration_sec": 76,
+    "audience": "Ethiopian families and young adults in the diaspora watching vertical short-form video on phones and horizontal edits on YouTube.",
+    "intent": "Evoke quiet warmth, patience, and pride in everyday craftsmanship passed down across generations.",
+    "end_card_text": "Made with AI — Heritage Short Pipeline (Gemini, FLUX, Wan 2.2 / Ken Burns, ACE-Step, FFmpeg)",
+    "ai_disclosure": true
+  },
+  "style_block": {
+    "prompt_prefix": "Warm analog 35mm cinema still, natural golden morning light, subtle film grain, hand-crafted Ethiopian highland workshop texture, centered subject composition safe for 9:16 and 16:9 framing",
+    "palette": "Warm amber, burnt sienna, aged brass, cedar wood, soft misty slate blue",
+    "lighting": "Soft directional morning window key light with warm tungsten bench lamp fill",
+    "medium": "35mm Kodak Portra documentary film look, shallow depth of field",
+    "negative_prompt": "text, watermark, subtitles, extra fingers, distorted face, modern neon, plastic gloss, oversaturated HDR"
+  },
+  "character_sheet": {
+    "character_id": "ato_tesfaye",
+    "name": "Ato Tesfaye (fictional composite craftsman)",
+    "description": "Elderly Ethiopian man in his late 60s, short silver-flecked beard, warm weathered face with kind eyes, wearing a faded olive canvas jacket over a cream cotton shirt and thin wire-rimmed reading glasses.",
+    "is_real_person": false,
+    "consent_verified": false,
+    "reference_prompts": [
+      "Front portrait of Ato Tesfaye, elderly Ethiopian craftsman in his late 60s, short silver-flecked beard, wire-rimmed glasses, faded olive canvas jacket over cream shirt, neutral warm expression, centered framing",
+      "Three-quarter side profile of Ato Tesfaye looking down thoughtfully at a wooden workbench, same silver beard, wire-rimmed glasses, olive canvas jacket",
+      "Close-up expression sheet of Ato Tesfaye smiling gently with eyes crinkled in warm workshop light, consistent features"
+    ],
+    "reference_seed": 1024,
+    "approved_reference": "outputs/references/ato_tesfaye_sheet.png"
+  },
+  "music": {
+    "provider": "ace-step",
+    "caption": "Gentle acoustic Ethiopian highland chamber underscore, warm krar plucking, soft felt piano, subtle cello drone, intimate nostalgic mood, no vocals, instrumental",
+    "tempo_bpm": 74,
+    "key": "D minor",
+    "instrumental": true,
+    "duration_sec": 80,
+    "candidates": 3,
+    "chosen_candidate_index": 0,
+    "base_seed": 4200,
+    "selection_reason": "Candidate 0 keeps the midrange open for Amharic narration and swells gently at the final radio-glow beat.",
+    "cues": [
+      {
+        "id": "cue_01_mist",
+        "start_sec": 0,
+        "end_sec": 22,
+        "emotion": "Quiet morning anticipation",
+        "notes": "Sparse krar harmonics and soft ambient drone under opening shots"
+      },
+      {
+        "id": "cue_02_craft",
+        "start_sec": 22,
+        "end_sec": 50,
+        "emotion": "Focused warmth and memory",
+        "notes": "Gentle plucked motif enters as solder and copper coils come together"
+      },
+      {
+        "id": "cue_03_signal",
+        "start_sec": 50,
+        "end_sec": 70,
+        "emotion": "Hopeful resolution",
+        "notes": "Warm swell as the amber radio dial lights up, tapering before the end card"
+      }
+    ]
+  },
+  "narration": {
+    "provider": "gemini-tts",
+    "voice": "Charon",
+    "style_instruction": "Calm, warm, unhurried elder storyteller cadence with gentle pauses",
+    "language_code": "am-ET",
+    "is_cloned_voice": false,
+    "consent_verified": false
+  },
+  "end_card": {
+    "enabled": true,
+    "duration_sec": 2.5,
+    "title": "The Brass Dial of Dessie",
+    "disclosure_text": "Made with AI",
+    "credits": "Gemini 3.8 Flash & TTS • FLUX.2 klein • Wan 2.2 / Ken Burns • ACE-Step 1.5 • FFmpeg"
+  },
+  "shots": [
+    {
+      "id": "shot_01",
+      "scene": "Dessie Hillside Dawn",
+      "shot_size": "extreme_wide",
+      "camera_movement": "pan_right",
+      "duration_sec": 8.5,
+      "reason": "Establishes the geographic setting of Dessie at dawn before entering the workshop.",
+      "keyframe_prompt": "Misty Ethiopian highland town of Dessie at sunrise, corrugated tin roofs nestled among eucalyptus trees and green ridges, soft morning smoke rising, centered horizon",
+      "motion_prompt": "Camera pans gently right across the valley as morning mist drifts slowly past the eucalyptus trees.",
+      "seed": 1101,
+      "narration_line": "በደሴ ተራሮች ላይ ንጋቱ ገና ሲቀድ፣ አንድ ትንሽ ሱቅ በዝምታ ይከፈታል።",
+      "subtitle_en": "As dawn breaks over Dessie's hills,\na small shop quietly opens.",
+      "video_backend": "auto"
+    },
+    {
+      "id": "shot_02",
+      "scene": "Shop Shutters",
+      "shot_size": "wide",
+      "camera_movement": "slow_push_in",
+      "duration_sec": 9.0,
+      "reason": "Introduces the main character Ato Tesfaye and the scale of his wooden workshop.",
+      "keyframe_prompt": "Ato Tesfaye standing inside his small wooden repair shop opening weathered blue shutters, morning sunbeams cutting through dust motes, shelves lined with old radios",
+      "motion_prompt": "Camera pushes in slowly as dust motes float through the golden doorway light.",
+      "seed": 1102,
+      "narration_line": "አቶ ተስፋዬ የእንጨት መስኮቱን ሲገፉ፣ የጠዋቱ ብርሃን ወደ ውስጥ ይፈሳል።",
+      "subtitle_en": "Ato Tesfaye pushes open the wooden\nshutters, letting morning light pour in.",
+      "video_backend": "auto"
+    },
+    {
+      "id": "shot_03",
+      "scene": "The Heirloom Radio",
+      "shot_size": "insert",
+      "camera_movement": "static",
+      "duration_sec": 8.5,
+      "reason": "Focuses the audience's eye on the broken brass-dial radio, the central story motif.",
+      "keyframe_prompt": "Close insert shot of a vintage wooden shortwave radio with a tarnished brass tuning dial resting centered on a scarred timber workbench, soft window light",
+      "motion_prompt": "Locked-off static camera, subtle flicker of warm bench lamp light across the brass dial.",
+      "seed": 1103,
+      "narration_line": "በጠረጴዛው ላይ ዓመታትን ያስቆጠረ፣ ነገር ግን ድምፁ የጠፋ አሮጌ ሬዲዮ ተቀምጧል።",
+      "subtitle_en": "On the bench sits an old radio,\nsilent after decades of service.",
+      "video_backend": "auto"
+    },
+    {
+      "id": "shot_04",
+      "scene": "Inspecting the Tubes",
+      "shot_size": "medium",
+      "camera_movement": "dolly_in",
+      "duration_sec": 8.0,
+      "reason": "Shows Ato Tesfaye's careful posture and brings the viewer closer into his craft.",
+      "keyframe_prompt": "Medium shot of Ato Tesfaye seated at his workbench, adjusting wire-rimmed glasses while leaning over the open back of the wooden radio, centered framing",
+      "motion_prompt": "Slow dolly toward the craftsman as he tilts his head slightly to inspect the inside.",
+      "seed": 1104,
+      "narration_line": "እያንዳንዱ ሽቦ ታሪክ አለው፤ እያንዳንዱ ድምፅ ትዝታን ይይዛል።",
+      "subtitle_en": "Every wire holds a story;\nevery frequency carries a memory.",
+      "video_backend": "auto"
+    },
+    {
+      "id": "shot_05",
+      "scene": "Hands and Solder",
+      "shot_size": "close_up",
+      "camera_movement": "static",
+      "duration_sec": 10.0,
+      "reason": "Intimate detail of steady weathered hands repairing a delicate copper coil.",
+      "keyframe_prompt": "Close-up of weathered Ethiopian hands holding a brass soldering iron over copper radio coils, tiny wisp of rosin smoke rising in warm tungsten light, centered",
+      "motion_prompt": "Locked-off camera while a thin wisp of white rosin smoke drifts slowly upward.",
+      "seed": 1105,
+      "narration_line": "የአርባ ዓመት ትዕግሥት በእጆቹ ላይ ይታያል፤ የተበጠሰው መስመር እንደገና ይገናኛል።",
+      "subtitle_en": "Forty years of patience guide his\nhands as a broken wire reconnects.",
+      "video_backend": "auto"
+    },
+    {
+      "id": "shot_06",
+      "scene": "Memory on the Wall",
+      "shot_size": "medium_close_up",
+      "camera_movement": "pan_left",
+      "duration_sec": 8.0,
+      "reason": "Connects the physical repair to the emotional theme of family across distance.",
+      "keyframe_prompt": "Medium close-up of a faded framed family photograph pinned beside a hand-drawn circuit diagram on the shop's plaster wall, warm afternoon light",
+      "motion_prompt": "Gentle camera pan left from the circuit diagram toward the warm framed photograph.",
+      "seed": 1106,
+      "narration_line": "ልጆቹ በሩቅ አገር ቢሆኑም፣ ይህ ሬዲዮ ቤቱን አንድ አድርጎ ይዞታል።",
+      "subtitle_en": "Though his children live far away,\nthis radio keeps the home together.",
+      "video_backend": "auto"
+    },
+    {
+      "id": "shot_07",
+      "scene": "Turning the Dial",
+      "shot_size": "extreme_close_up",
+      "camera_movement": "slow_push_in",
+      "duration_sec": 8.5,
+      "reason": "Builds climax tension right before the radio comes back to life.",
+      "keyframe_prompt": "Extreme close-up of weathered fingers gently turning the knurled brass tuning knob as a warm amber dial backlight begins to glow softly",
+      "motion_prompt": "Very slow push-in as the amber dial light brightens smoothly behind the glass scale.",
+      "seed": 1107,
+      "narration_line": "አሁን ትንሹ የነሐስ መጠምዘዣ ሲዞር፣ ቀዝቃዛው መስታወት በብርሃን ይሞቃል።",
+      "subtitle_en": "Now, as the brass dial turns,\nthe cold glass warms with amber light.",
+      "video_backend": "auto"
+    },
+    {
+      "id": "shot_08",
+      "scene": "The Warm Smile",
+      "shot_size": "close_up",
+      "camera_movement": "static",
+      "duration_sec": 7.5,
+      "reason": "Delivers the emotional payoff on Ato Tesfaye's face when the broadcast returns.",
+      "keyframe_prompt": "Close-up portrait of Ato Tesfaye bathed in soft amber radio glow, eyes shining with quiet pride and a gentle relieved smile, centered",
+      "motion_prompt": "Subtle breathing motion and gentle blink as warm amber light plays on his glasses.",
+      "seed": 1108,
+      "narration_line": "የተስፋ ድምፅ እንደገና ሲሰማ፣ ዝምታው በፈገግታ ይሞላል።",
+      "subtitle_en": "When the familiar voice returns,\nsilence fills with a quiet smile.",
+      "video_backend": "auto"
+    },
+    {
+      "id": "shot_09",
+      "scene": "Evening Workshop",
+      "shot_size": "wide",
+      "camera_movement": "slow_pull_out",
+      "duration_sec": 8.0,
+      "reason": "Bookends the opening wide shot, leaving the workshop glowing like a lantern.",
+      "keyframe_prompt": "Wide shot looking into the cozy Dessie workshop at dusk from the street, warm amber light glowing inside as Ato Tesfaye sits listening beside the radio",
+      "motion_prompt": "Camera pulls back slowly into the blue evening dusk while the shop glows warmly.",
+      "seed": 1109,
+      "narration_line": "የተሰበረን ነገር ማደስ፣ ያለፈውን ፍቅር ለነገ ማቆየት ነው።",
+      "subtitle_en": "To mend what is broken is to carry\nyesterday's love into tomorrow.",
+      "video_backend": "auto"
+    }
+  ]
+}

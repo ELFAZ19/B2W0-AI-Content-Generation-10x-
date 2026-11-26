@@ -1,0 +1,324 @@
+{
+  "assemble_final:final": {
+    "input_hash": "534798b8c810603bcf030a97c807ec630ef3c4bbd3e608fedf5976df32c32609",
+    "metadata": {},
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\final\\film_9x16.mp4",
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\final\\film_16x9.mp4"
+    ]
+  },
+  "assemble_radio:radio": {
+    "input_hash": "31c1ec0cea72ee344ac5bde12950df0560b713e934ebf872786e610084981fd3",
+    "metadata": {},
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\radio_cut\\radio_cut_16x9.mp4"
+    ]
+  },
+  "keyframes:shot_01": {
+    "input_hash": "1cb9f839a032f299d4e8f3589018a86175309d590efaf1624d458051b5685f46",
+    "metadata": {
+      "model": "@cf/black-forest-labs/flux-2-klein-4b"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\keyframes\\shot_01.png"
+    ]
+  },
+  "keyframes:shot_02": {
+    "input_hash": "bbb8c98f016109e340499961dc841d6337e9130e96227705ab05bffbf40213d7",
+    "metadata": {
+      "model": "@cf/black-forest-labs/flux-2-klein-4b"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\keyframes\\shot_02.png"
+    ]
+  },
+  "keyframes:shot_03": {
+    "input_hash": "86c516eac5128c15c3856bed7d19f7cf8a86bf36b8c4911f97bcb1c030387c73",
+    "metadata": {
+      "model": "@cf/black-forest-labs/flux-2-klein-4b"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\keyframes\\shot_03.png"
+    ]
+  },
+  "keyframes:shot_04": {
+    "input_hash": "ce0f4062519d0b9370406db0367aa936f6a840d6536f45b11a5c5e8a9b860fed",
+    "metadata": {
+      "model": "@cf/black-forest-labs/flux-2-klein-4b"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\keyframes\\shot_04.png"
+    ]
+  },
+  "keyframes:shot_05": {
+    "input_hash": "f3ceea69d7360cd5c7d738818a32678f1de4ab2bdc08b3c11f6ba927417a64bd",
+    "metadata": {
+      "model": "@cf/black-forest-labs/flux-2-klein-4b"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\keyframes\\shot_05.png"
+    ]
+  },
+  "keyframes:shot_06": {
+    "input_hash": "2ded26577d4663cf1d94a599a0eff3426bc72ec28676aebb42cf3f2be934f809",
+    "metadata": {
+      "model": "@cf/black-forest-labs/flux-2-klein-4b"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\keyframes\\shot_06.png"
+    ]
+  },
+  "keyframes:shot_07": {
+    "input_hash": "ec8c669101a448b122b66da90869c61c38d1a98b16e28ad567f36de403988ce7",
+    "metadata": {
+      "model": "@cf/black-forest-labs/flux-2-klein-4b"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\keyframes\\shot_07.png"
+    ]
+  },
+  "keyframes:shot_08": {
+    "input_hash": "60276d447be49130a64115e4a8ead51b7782deda522521be39a92e581bb84cbc",
+    "metadata": {
+      "model": "@cf/black-forest-labs/flux-2-klein-4b"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\keyframes\\shot_08.png"
+    ]
+  },
+  "keyframes:shot_09": {
+    "input_hash": "d1d7548d5e8db263fad9953017ecaf2761f2bcfc8d63ad993e5011c594147e0b",
+    "metadata": {
+      "model": "@cf/black-forest-labs/flux-2-klein-4b"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\keyframes\\shot_09.png"
+    ]
+  },
+  "music:candidate_0": {
+    "input_hash": "acc3ea0f4b206ea7e5075c3eb08419d59d030b45582b1d97a6876d4acae8309b",
+    "metadata": {
+      "model": "ffmpeg-synth-audio",
+      "seed": 4200
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\music\\candidate_0_seed_4200.wav"
+    ]
+  },
+  "music:candidate_1": {
+    "input_hash": "91a95b026a12bd061e9a1f0d915c5688c49396f62ae1dfd362afafa5011a4cba",
+    "metadata": {
+      "model": "ffmpeg-synth-audio",
+      "seed": 4201
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\music\\candidate_1_seed_4201.wav"
+    ]
+  },
+  "music:candidate_2": {
+    "input_hash": "3b62578a3faeb28ba86faeb5f853b5c7a0a180e056bf8d86daef3ab5b7ac30c7",
+    "metadata": {
+      "model": "ffmpeg-synth-audio",
+      "seed": 4202
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\music\\candidate_2_seed_4202.wav"
+    ]
+  },
+  "narration:shot_01": {
+    "input_hash": "515c798c072c8aa9f7ff0050a5abc82efa484855d0e1ea2b39e560b8bfc05e0f",
+    "metadata": {
+      "duration_sec": 8.23,
+      "model": "gemini-3.8-flash-tts"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\narration\\shot_01.wav"
+    ]
+  },
+  "narration:shot_02": {
+    "input_hash": "e0c3d906708f612574b3b2d81de4b59d0f8c50f8595b842ed849051fa46caf2e",
+    "metadata": {
+      "duration_sec": 8.69,
+      "model": "gemini-3.8-flash-tts"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\narration\\shot_02.wav"
+    ]
+  },
+  "narration:shot_03": {
+    "input_hash": "cc2e432913ef24b00f47073f7f0573cb701c10cbb6af6bed1eff6fa18958b902",
+    "metadata": {
+      "duration_sec": 8.18,
+      "model": "gemini-3.8-flash-tts"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\narration\\shot_03.wav"
+    ]
+  },
+  "narration:shot_04": {
+    "input_hash": "0fe268dc91dc549c7ece80a31ef1ee41d3bcacac302dadb7b1a4fd719dba69ec",
+    "metadata": {
+      "duration_sec": 7.8,
+      "model": "gemini-3.8-flash-tts"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\narration\\shot_04.wav"
+    ]
+  },
+  "narration:shot_05": {
+    "input_hash": "2c32664dcb1add40d8d2669ef005c3609d67787281809899362aec10651ad3c6",
+    "metadata": {
+      "duration_sec": 9.68,
+      "model": "gemini-3.8-flash-tts"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\narration\\shot_05.wav"
+    ]
+  },
+  "narration:shot_06": {
+    "input_hash": "24e5065ef394aa397e984ce9cd5a4fac7c2ecb33b3a769bd34b64068ab4ebe40",
+    "metadata": {
+      "duration_sec": 7.23,
+      "model": "gemini-3.8-flash-tts"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\narration\\shot_06.wav"
+    ]
+  },
+  "narration:shot_07": {
+    "input_hash": "01607c42558b45ea181eafdbd68339ba569030f39d3e731de83b03bf0bc1bfb5",
+    "metadata": {
+      "duration_sec": 8.27,
+      "model": "gemini-3.8-flash-tts"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\narration\\shot_07.wav"
+    ]
+  },
+  "narration:shot_08": {
+    "input_hash": "d40658d9b03cf08a8cc94909d396d818a19177a447e4224372c241576bb77d43",
+    "metadata": {
+      "duration_sec": 6.83,
+      "model": "gemini-3.8-flash-tts"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\narration\\shot_08.wav"
+    ]
+  },
+  "narration:shot_09": {
+    "input_hash": "e48812f5c033d9f674576f4ecbab980705af5ee73dcaabec4d7bdacc69d29be4",
+    "metadata": {
+      "duration_sec": 6.17,
+      "model": "gemini-3.8-flash-tts"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\narration\\shot_09.wav"
+    ]
+  },
+  "references:ato_tesfaye": {
+    "input_hash": "7e84669f47ffe37a86641e4f337cabf71d9f1d0cc4e857f9b8072c304d9a6140",
+    "metadata": {},
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\references\\ato_tesfaye_sheet.png"
+    ]
+  },
+  "script:summary": {
+    "input_hash": "4c981528580317b872a01f896758ae12997d2214948e2cb486f19838c79f0f19",
+    "metadata": {
+      "shots": 9
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\script\\storyboard_summary.json"
+    ]
+  },
+  "shots:shot_01": {
+    "input_hash": "58c3ddc66ffd25ee0d353b67a9e52aa21531f3d7bfbed4bf1448a0d39fd8e91a",
+    "metadata": {
+      "model": "ffmpeg-ken-burns",
+      "quality": "final"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\shots\\shot_01.mp4"
+    ]
+  },
+  "shots:shot_02": {
+    "input_hash": "1d4166516af35a38924d87c0f07f8f9bc4bd0d53f844576014120ae74a3187ef",
+    "metadata": {
+      "model": "ffmpeg-ken-burns",
+      "quality": "final"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\shots\\shot_02.mp4"
+    ]
+  },
+  "shots:shot_03": {
+    "input_hash": "0b07bc9879b41aa4cfb0c32446a79ee6c764e4a7638e9cd32af4b84065b0bb09",
+    "metadata": {
+      "model": "ffmpeg-ken-burns",
+      "quality": "final"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\shots\\shot_03.mp4"
+    ]
+  },
+  "shots:shot_04": {
+    "input_hash": "9ce6e09846afc445dfceedccd0338be13f1fc2de0ac4e586936974131fcf78e0",
+    "metadata": {
+      "model": "ffmpeg-ken-burns",
+      "quality": "final"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\shots\\shot_04.mp4"
+    ]
+  },
+  "shots:shot_05": {
+    "input_hash": "b25f1a5d168b2a07d08d6400ae80abc8d64f14ceb2a7724efc07e398ff2ac197",
+    "metadata": {
+      "model": "ffmpeg-ken-burns",
+      "quality": "final"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\shots\\shot_05.mp4"
+    ]
+  },
+  "shots:shot_06": {
+    "input_hash": "63149d6c941e559d188fc2dadbc5dad3917ffc5fd819b664fdd9b02f57543cb4",
+    "metadata": {
+      "model": "ffmpeg-ken-burns",
+      "quality": "final"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\shots\\shot_06.mp4"
+    ]
+  },
+  "shots:shot_07": {
+    "input_hash": "2496a3f5165870efd6bdbea3d6e74c114bf7cfe3c2e0090e64e8299c13037da1",
+    "metadata": {
+      "model": "ffmpeg-ken-burns",
+      "quality": "final"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\shots\\shot_07.mp4"
+    ]
+  },
+  "shots:shot_08": {
+    "input_hash": "b0d26530ebec7239d53543ffc02b1da3da7b6cb4d8dcedd4d39fa8c02d2d3650",
+    "metadata": {
+      "model": "ffmpeg-ken-burns",
+      "quality": "final"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\shots\\shot_08.mp4"
+    ]
+  },
+  "shots:shot_09": {
+    "input_hash": "a3978721adea5f3145ff49fc10790928dcd8d928ce0bb8192cbb415fa89d8568",
+    "metadata": {
+      "model": "ffmpeg-ken-burns",
+      "quality": "final"
+    },
+    "outputs": [
+      "C:\\2017\\2017\\2017\\vs code\\10x\\B2W0 AI Content Generatio\\project\\outputs\\shots\\shot_09.mp4"
+    ]
+  }
+}
